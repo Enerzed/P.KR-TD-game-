@@ -14,9 +14,11 @@ public:
         obj = myLevel.GetObjects("wall");
         setX(myX);
         setY(myY);
-        setSpeed(0.5);
-        setWidth(16);
-        setHeight(16);
+        targetX = myTargetX;
+        targetY = myTargetY;
+        setSpeed(0.2);
+        setWidth(5);
+        setHeight(5);
         setLife(true);
         distanse = sqrt((targetX - x) - (targetY - y));
         vX = (targetX - x) / 100;

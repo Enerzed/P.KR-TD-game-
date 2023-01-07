@@ -102,5 +102,13 @@ public:
 		dy = dy + 0.0015 * time;
 		currentTime = time;
 	}
+	void setScore(int myScore)
+	{
+		score = myScore;
+	}
+	int getScore()
+	{
+		return score;
+	}
 };
 

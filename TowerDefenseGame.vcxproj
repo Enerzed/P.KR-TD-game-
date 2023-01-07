@@ -145,9 +145,11 @@
     <ClInclude Include="Bullet.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="HealthBar.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="libs.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Sounds.h" />
     <ClInclude Include="TinyXML\tinystr.h" />
     <ClInclude Include="TinyXML\tinyxml.h" />
     <ClInclude Include="View.h" />
